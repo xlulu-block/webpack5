@@ -1,5 +1,18 @@
-import './main.css'
 import './sass.scss'
-const a='hello word'
-console.log(a);
-module .exports=a
+import logo from '/public/big.png'
+const img=new Image()
+img.src=logo
+document.getElementById('imgBox').appendChild(img)
+class Person{
+    name='扎根三'
+    age=18
+    gender='未知'
+    Message(){
+        return{
+            name:this.name,
+            age:this.age,
+            gender:this.gender
+        }
+    }
+}
+module.exports=Person

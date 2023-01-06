@@ -7,7 +7,13 @@ body {
     display: block;
     text-align: center;
     line-height: 300px;
-    background: url('../public/1.png');
+    background: url('../public/small.png');
     background-size: contain;
+  }
+  .use{
+    background-color:pink;
+  }
+  .noused{
+    background-color: #fff;
   }
 }
