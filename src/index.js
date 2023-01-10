@@ -1,5 +1,6 @@
 import './sass.scss'
 import logo from '/public/big.png'
+import './app'
 const img=new Image()
 img.src=logo
 document.getElementById('imgBox').appendChild(img)
